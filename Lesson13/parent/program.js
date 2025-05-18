@@ -1,0 +1,1 @@
+console.log(centralCell.parentElement.parentElement.children)
