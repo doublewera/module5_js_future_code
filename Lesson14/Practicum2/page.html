@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="program.js" defer></script>
+    <title>Визитка</title>
+</head>
+<body>
+    <input id="surname" placeholder="Введите фамилию сотрудника">
+    <button onclick="find_and_show(surname.value)">Найти</button>
+    <table>
+        <tr>
+          <td><img id="photo" alt="Фотография"/></td>
+          <td>
+            <h1 id="username"></h1>
+            <h3 id="year">Год поступления: </h3>
+            <h3>Навыки:</h3>
+            <ul id="keyfeatures"></ul>
+          </td>
+        </tr>
+      </table>
+</body>
+</html>
