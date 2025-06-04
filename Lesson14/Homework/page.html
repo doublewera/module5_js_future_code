@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="program.js" defer></script>
+    <title>Тестирование по арифметике</title>
+</head>
+<body>
+    <ul>
+      <li id="li1">
+        <input id="a1" value="2" type="number" disabled>+
+        <input id="b1" value="2" type="number" disabled>=
+        <input id="result1" type="number"><button onclick="check(1, plus)">Проверить</button>
+      </li>
+      <li id="li2">
+        <input id="a2" value="5" type="number" disabled>*
+        <input id="b2" value="5" type="number" disabled>=
+        <input id="result2" type="number"><button onclick="check(2, mult)">Проверить</button>
+      </li>
+      <li id="li3">
+        <input id="a3" value="10" type="number" disabled>-
+        <input id="b3" value="3"  type="number" disabled>=
+        <input id="result3"  type="number"><button onclick="check(3, minus)">Проверить</button>
+      </li>
+    </ul>
+    <p id="total"></p>
+</body>
+</html>

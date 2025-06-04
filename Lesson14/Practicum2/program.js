@@ -14,7 +14,7 @@ let people = {
 function find_and_show(userid) {
     if (userid in people) {
         photo.src = userid + '.png'
-        username.textContent = people[userid].username
+        username.textContent = userid + ' ' + people[userid].username
         year.textContent = 'Год поступления: ' + people[userid].year
         keyfeatures.innerHTML = '' 
         // предпочтительнее обойти список циклом и удалить элементы с помощью removeChild 
